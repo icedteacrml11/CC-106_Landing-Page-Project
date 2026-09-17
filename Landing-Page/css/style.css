@@ -252,6 +252,7 @@ ul { list-style: none; }
 }
 
 .logo-text {
+    font-family: 'Poppins', sans-serif;
     font-size: var(--text-base);
     font-weight: 700;
     color: var(--gray-900);
@@ -835,6 +836,7 @@ ul { list-style: none; }
 }
 
 .footer-name {
+    font-family: 'Poppins', sans-serif;
     font-size: var(--text-base);
     font-weight: 700;
     color: var(--gray-900);
