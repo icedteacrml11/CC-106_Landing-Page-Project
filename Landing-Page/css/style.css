@@ -1,5 +1,5 @@
 /* ============================================
-   eSkwela — Apple-Inspired Minimalist Design
+   eSkwela Landing Page Stylesheet
    ============================================
    Selectors: element, class, ID, descendant, pseudo-class
    Layout: Flexbox + CSS Grid
@@ -189,7 +189,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   HEADER — Frosted glass, sticky, minimal
+   Site Header & Navigation
    =================================================== */
 #site-header {
     position: fixed;
@@ -313,7 +313,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   HERO — Full viewport, dramatic type, CSS visuals
+   Hero Section
    =================================================== */
 .hero-section {
     position: relative;
@@ -414,7 +414,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   STATS BAR — Edge-to-edge, compact
+   Statistics Bar
    =================================================== */
 .stats-bar {
     background-color: var(--gray-100);
@@ -457,7 +457,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   ABOUT — Image + text grid, Apple layout
+   About Section
    =================================================== */
 .about-section {
     padding: 7rem 0;
@@ -516,7 +516,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   FEATURES — 3 cards, clean grid, SVG icons
+   Features Section
    =================================================== */
 .features-section {
     padding: 7rem 0;
@@ -580,7 +580,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   SERVICES — Numbered cards, 2×2 grid
+   Services Section
    =================================================== */
 .services-section {
     padding: 7rem 0;
@@ -668,7 +668,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   CTA — Full-bleed dark, centered, glow
+   Call-to-Action Section
    =================================================== */
 .cta-section {
     position: relative;
@@ -722,7 +722,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   CONTACT — Split layout, clean form
+   Contact Section
    =================================================== */
 .contact-section {
     padding: 7rem 0;
@@ -807,7 +807,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   FOOTER — Apple-style minimal
+   Site Footer
    =================================================== */
 .site-footer {
     background-color: var(--gray-100);

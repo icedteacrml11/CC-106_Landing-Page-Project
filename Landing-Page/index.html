@@ -323,7 +323,7 @@
             });
         });
 
-        // Header style on scroll — adapts to dark hero
+        // Handle dynamic header styling on scroll
         const header = document.getElementById('site-header');
         const heroSection = document.getElementById('home');
 
@@ -401,7 +401,7 @@
 
         document.querySelectorAll('.reveal-stagger').forEach(el => staggerObserver.observe(el));
 
-        // Contact form — show feedback on submit
+        // Contact form submission handler
         const contactForm = document.getElementById('contact-form');
         contactForm.addEventListener('submit', function (e) {
             e.preventDefault();
