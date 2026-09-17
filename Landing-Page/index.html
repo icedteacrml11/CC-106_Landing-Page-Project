@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -21,7 +21,6 @@
             </a>
             <nav id="main-nav" class="main-nav">
                 <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu">
-                    <span class="hamburger-line"></span>
                     <span class="hamburger-line"></span>
                     <span class="hamburger-line"></span>
                 </button>
@@ -40,64 +39,80 @@
 
         <!-- ===== HERO SECTION ===== -->
         <section id="home" class="hero-section">
-            <div class="container hero-content">
-                <div class="hero-text">
-                    <h1>Unlock Your Potential with <span class="highlight">LearnSphere</span></h1>
-                    <p class="hero-tagline">
-                        Discover world-class courses, expert instructors, and a global community 
-                        of learners. Whether you're building new skills or advancing your career, 
-                        LearnSphere is your gateway to knowledge without limits.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#features" class="btn btn-primary" id="hero-cta-primary">Get Started</a>
-                        <a href="#about" class="btn btn-secondary" id="hero-cta-secondary">Learn More</a>
-                    </div>
-                    <div class="hero-stats">
-                        <div class="stat-item">
-                            <span class="stat-number">50K+</span>
-                            <span class="stat-label">Students</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">200+</span>
-                            <span class="stat-label">Courses</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">95%</span>
-                            <span class="stat-label">Satisfaction</span>
-                        </div>
-                    </div>
+            <div class="hero-content">
+                <p class="hero-eyebrow">The future of education</p>
+                <h1>Learn without<br><span class="highlight">limits.</span></h1>
+                <p class="hero-tagline">
+                    World-class courses. Expert instructors. A global community of 
+                    learners — all in one beautifully designed platform.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary" id="hero-cta-primary">Get Started</a>
+                    <a href="#about" class="btn btn-ghost" id="hero-cta-secondary">Learn More →</a>
                 </div>
-                <div class="hero-image-wrapper">
-                    <img src="images/hero-image.jpg" alt="Diverse group of students collaborating on laptops in a modern learning environment" class="hero-image">
+            </div>
+            <div class="hero-visual">
+                <div class="hero-glow"></div>
+                <div class="hero-grid-pattern"></div>
+            </div>
+        </section>
+
+        <!-- ===== STATS BAR ===== -->
+        <section class="stats-bar" aria-label="Platform statistics">
+            <div class="container stats-inner">
+                <div class="stat-item">
+                    <span class="stat-number">50K+</span>
+                    <span class="stat-label">Active learners</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Expert-led courses</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">95%</span>
+                    <span class="stat-label">Completion rate</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">4.9★</span>
+                    <span class="stat-label">Average rating</span>
                 </div>
             </div>
         </section>
 
         <!-- ===== ABOUT SECTION ===== -->
         <section id="about" class="about-section">
-            <div class="container about-content">
-                <div class="about-image-wrapper">
-                    <img src="images/about-image.jpg" alt="Students engaged in a collaborative study session at a round table in a modern library" class="about-image">
+            <div class="container">
+                <div class="about-header">
+                    <p class="section-eyebrow">About us</p>
+                    <h2 class="section-headline">Education reimagined<br>for the <span class="highlight">modern world.</span></h2>
                 </div>
-                <div class="about-text">
-                    <h2 class="section-title">About <span class="highlight">LearnSphere</span></h2>
-                    <p>
-                        LearnSphere was founded with a simple but powerful mission: to make 
-                        high-quality education accessible to everyone, everywhere. We believe 
-                        that learning should not be limited by geography, financial constraints, 
-                        or rigid schedules. Our platform brings together world-renowned educators 
-                        and cutting-edge technology to deliver an immersive, flexible, and 
-                        personalized learning experience that adapts to your unique goals.
-                    </p>
-                    <p>
-                        With over 200 expertly crafted courses spanning technology, business, 
-                        design, science, and the humanities, LearnSphere provides the tools 
-                        and support you need to thrive in today's rapidly evolving world. 
-                        Our interactive lessons, hands-on projects, and vibrant community 
-                        forums ensure that you're never learning alone — you're part of a 
-                        global network of curious, ambitious minds ready to shape the future.
-                    </p>
-                    <a href="#features" class="btn btn-primary" id="about-cta">Explore Our Features</a>
+                <div class="about-grid">
+                    <div class="about-block about-block-main">
+                        <div class="about-visual">
+                            <img src="images/about-image.jpg" alt="Students engaged in a collaborative study session at a round table in a modern library" class="about-image">
+                        </div>
+                    </div>
+                    <div class="about-block about-block-text">
+                        <p class="about-lead">
+                            LearnSphere was founded with a simple but powerful mission: to make 
+                            high-quality education accessible to everyone, everywhere.
+                        </p>
+                        <p>
+                            We believe learning should not be limited by geography, financial 
+                            constraints, or rigid schedules. Our platform brings together 
+                            world-renowned educators and cutting-edge technology to deliver 
+                            an immersive, flexible, and personalized learning experience.
+                        </p>
+                        <p>
+                            With over 200 expertly crafted courses spanning technology, business, 
+                            design, science, and the humanities, LearnSphere provides the tools 
+                            you need to thrive. Our interactive lessons, hands-on projects, and 
+                            vibrant community ensure you're never learning alone.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -105,37 +120,47 @@
         <!-- ===== FEATURES SECTION ===== -->
         <section id="features" class="features-section">
             <div class="container">
-                <h2 class="section-title centered">Why Choose <span class="highlight">LearnSphere</span></h2>
-                <p class="section-subtitle">Everything you need to learn, grow, and succeed — all in one platform.</p>
+                <p class="section-eyebrow">Features</p>
+                <h2 class="section-headline">Everything you need.<br><span class="highlight">Nothing you don't.</span></h2>
                 <div class="features-grid">
                     <article class="feature-card">
-                        <div class="feature-icon-wrapper">
-                            <img src="images/feature-interactive.jpg" alt="Icon of a computer screen with a play button representing interactive video lessons" class="feature-icon">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
                         </div>
                         <h3>Interactive Courses</h3>
                         <p>
-                            Engage with dynamic video lessons, quizzes, and hands-on coding 
-                            exercises designed to make learning active and effective.
+                            Dynamic video lessons, live quizzes, and hands-on coding exercises 
+                            designed to make learning active, engaging, and effective.
                         </p>
                     </article>
                     <article class="feature-card">
-                        <div class="feature-icon-wrapper">
-                            <img src="images/feature-certification.jpg" alt="Icon of a certificate with a gold ribbon badge representing accredited certification" class="feature-icon">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
                         </div>
                         <h3>Certified Programs</h3>
                         <p>
-                            Earn industry-recognized certificates that validate your skills 
-                            and boost your resume for career advancement opportunities.
+                            Earn industry-recognized certificates that validate your expertise
+                            and give your resume the competitive edge it deserves.
                         </p>
                     </article>
                     <article class="feature-card">
-                        <div class="feature-icon-wrapper">
-                            <img src="images/feature-community.jpg" alt="Icon of three connected people representing the global learner community" class="feature-icon">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
                         </div>
                         <h3>Global Community</h3>
                         <p>
-                            Connect with fellow learners, join study groups, and participate 
-                            in forums moderated by experienced mentors worldwide.
+                            Connect with fellow learners worldwide, join study groups, 
+                            and participate in forums moderated by experienced mentors.
                         </p>
                     </article>
                 </div>
@@ -145,40 +170,44 @@
         <!-- ===== SERVICES SECTION ===== -->
         <section id="services" class="services-section">
             <div class="container">
-                <h2 class="section-title centered">Our <span class="highlight">Services</span></h2>
-                <p class="section-subtitle">Comprehensive solutions tailored to every stage of your learning journey.</p>
+                <p class="section-eyebrow">Services</p>
+                <h2 class="section-headline">Tailored to your<br><span class="highlight">journey.</span></h2>
                 <div class="services-grid">
                     <div class="service-card">
-                        <div class="service-number">01</div>
+                        <span class="service-number">01</span>
                         <h3>Personal Tutoring</h3>
                         <p>
                             Book one-on-one sessions with expert tutors who provide 
-                            personalized guidance and feedback tailored to your pace.
+                            personalized guidance and feedback at your own pace.
                         </p>
+                        <a href="#contact" class="service-link">Get started →</a>
                     </div>
                     <div class="service-card">
-                        <div class="service-number">02</div>
+                        <span class="service-number">02</span>
                         <h3>Corporate Training</h3>
                         <p>
                             Upskill your team with custom training programs designed 
                             for organizations of every size and industry.
                         </p>
+                        <a href="#contact" class="service-link">Get started →</a>
                     </div>
                     <div class="service-card">
-                        <div class="service-number">03</div>
+                        <span class="service-number">03</span>
                         <h3>Career Coaching</h3>
                         <p>
-                            Get expert career advice, resume reviews, and interview 
-                            preparation to land your dream role.
+                            Expert career advice, resume reviews, and interview 
+                            preparation to help you land your dream role.
                         </p>
+                        <a href="#contact" class="service-link">Get started →</a>
                     </div>
                     <div class="service-card">
-                        <div class="service-number">04</div>
+                        <span class="service-number">04</span>
                         <h3>Live Workshops</h3>
                         <p>
-                            Attend live, instructor-led workshops on trending topics 
-                            with real-time Q&amp;A and collaboration.
+                            Attend instructor-led workshops on trending topics 
+                            with real-time Q&amp;A and hands-on collaboration.
                         </p>
+                        <a href="#contact" class="service-link">Get started →</a>
                     </div>
                 </div>
             </div>
@@ -186,21 +215,30 @@
 
         <!-- ===== CALL-TO-ACTION SECTION ===== -->
         <section id="cta" class="cta-section">
-            <div class="container cta-content">
-                <h2>Ready to Transform Your Future?</h2>
-                <p>
+            <div class="cta-content">
+                <p class="cta-eyebrow">Start today</p>
+                <h2>Ready to transform<br>your future?</h2>
+                <p class="cta-description">
                     Join over 50,000 learners who are already building the skills 
-                    they need to succeed. Start your first course today — it's free!
+                    they need to succeed. Your first course is free.
                 </p>
                 <a href="#contact" class="btn btn-cta" id="cta-button">Start Learning for Free</a>
             </div>
+            <div class="cta-glow"></div>
         </section>
 
         <!-- ===== CONTACT SECTION ===== -->
         <section id="contact" class="contact-section">
-            <div class="container">
-                <h2 class="section-title centered">Get in <span class="highlight">Touch</span></h2>
-                <p class="section-subtitle">Have a question or want to learn more? We'd love to hear from you.</p>
+            <div class="container contact-layout">
+                <div class="contact-info">
+                    <p class="section-eyebrow">Contact</p>
+                    <h2 class="section-headline">Let's start a<br><span class="highlight">conversation.</span></h2>
+                    <p class="contact-description">
+                        Have a question, feedback, or partnership inquiry? 
+                        We'd love to hear from you. Fill out the form and 
+                        our team will get back to you within 24 hours.
+                    </p>
+                </div>
                 <form id="contact-form" class="contact-form" action="#" method="post">
                     <div class="form-row">
                         <div class="form-group">
@@ -218,9 +256,9 @@
                     </div>
                     <div class="form-group">
                         <label for="contact-message">Message</label>
-                        <textarea id="contact-message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+                        <textarea id="contact-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
                     </div>
-                    <button type="submit" id="contact-submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" id="contact-submit" class="btn btn-primary btn-full">Send Message</button>
                 </form>
             </div>
         </section>
@@ -229,33 +267,41 @@
 
     <!-- ===== FOOTER ===== -->
     <footer id="site-footer" class="site-footer">
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <img src="images/logo.png" alt="LearnSphere logo" class="footer-logo">
-                <span class="footer-name">LearnSphere</span>
-                <p class="footer-tagline">Empowering learners worldwide through accessible, high-quality education.</p>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="LearnSphere logo" class="footer-logo">
+                    <span class="footer-name">LearnSphere</span>
+                </div>
+                <div class="footer-columns">
+                    <div class="footer-col">
+                        <h3>Navigate</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Connect</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                            <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                            <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                            <li><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="footer-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+            <div class="footer-bottom">
+                <p>&copy; 2026 LearnSphere. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
             </div>
-            <div class="footer-social">
-                <h3>Follow Us</h3>
-                <ul class="social-links">
-                    <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">Facebook</a></li>
-                    <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Twitter profile">Twitter</a></li>
-                    <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram page">Instagram</a></li>
-                    <li><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our LinkedIn page">LinkedIn</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 LearnSphere. All rights reserved.</p>
         </div>
     </footer>
 
@@ -269,7 +315,7 @@
             menuToggle.classList.toggle('active');
         });
 
-        // Close mobile menu when a link is clicked
+        // Close mobile menu on link click
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', () => {
                 navList.classList.remove('nav-open');
@@ -277,23 +323,26 @@
             });
         });
 
-        // Sticky header shadow on scroll
+        // Header style on scroll — adapts to dark hero
         const header = document.getElementById('site-header');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-        });
+        const heroSection = document.getElementById('home');
 
-        // Active nav link highlight on scroll
+        function updateHeader() {
+            const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+            const pastHero = window.scrollY > heroBottom - 60;
+            header.classList.toggle('scrolled', window.scrollY > 20);
+            header.classList.toggle('over-dark', !pastHero);
+        }
+        window.addEventListener('scroll', updateHeader);
+        updateHeader();
+
+        // Active nav link on scroll
         const sections = document.querySelectorAll('section[id]');
         window.addEventListener('scroll', () => {
             let current = '';
             sections.forEach(section => {
-                const sectionTop = section.offsetTop - 100;
-                if (window.scrollY >= sectionTop) {
+                const top = section.offsetTop - 100;
+                if (window.scrollY >= top) {
                     current = section.getAttribute('id');
                 }
             });
@@ -305,7 +354,7 @@
             });
         });
 
-        // Smooth scroll for anchor links
+        // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -316,19 +365,56 @@
             });
         });
 
-        // Simple scroll-triggered fade-in animation
-        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
-        const observer = new IntersectionObserver((entries) => {
+        // Step 1: Apply reveal classes FIRST (before observers)
+        document.querySelectorAll('.section-eyebrow, .section-headline, .about-lead, .about-block, .cta-content, .contact-info, .contact-form').forEach(el => {
+            el.classList.add('reveal');
+        });
+        document.querySelectorAll('.features-grid, .services-grid, .stats-inner').forEach(el => {
+            el.classList.add('reveal-stagger');
+        });
+        document.querySelectorAll('.feature-card, .service-card, .stat-item').forEach(el => {
+            el.classList.add('reveal-child');
+        });
+
+        // Step 2: Create observers AFTER classes are applied
+        const revealObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
+                    entry.target.classList.add('revealed');
                 }
             });
-        }, observerOptions);
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
 
-        document.querySelectorAll('.feature-card, .service-card, .about-text, .about-image-wrapper, .hero-text, .hero-image-wrapper, .cta-content, .contact-form').forEach(el => {
-            el.classList.add('fade-in');
-            observer.observe(el);
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+        const staggerObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const children = entry.target.querySelectorAll('.reveal-child');
+                    children.forEach((child, i) => {
+                        child.style.transitionDelay = `${i * 0.12}s`;
+                        child.classList.add('revealed');
+                    });
+                }
+            });
+        }, { threshold: 0.05 });
+
+        document.querySelectorAll('.reveal-stagger').forEach(el => staggerObserver.observe(el));
+
+        // Contact form — show feedback on submit
+        const contactForm = document.getElementById('contact-form');
+        contactForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const btn = document.getElementById('contact-submit');
+            btn.textContent = 'Message Sent ✓';
+            btn.style.backgroundColor = '#16a34a';
+            btn.disabled = true;
+            setTimeout(() => {
+                btn.textContent = 'Send Message';
+                btn.style.backgroundColor = '';
+                btn.disabled = false;
+                contactForm.reset();
+            }, 2500);
         });
     </script>
 
